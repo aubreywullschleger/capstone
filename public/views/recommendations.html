@@ -1,0 +1,3 @@
+enter a movie: <input type="text"  ng-model="inputMedia" value="{{inputMedia}}"/>
+<input ng-click="getMovieGenres()" type="submit" value="get recommendations"/>
+<div ng-repeat="movie in recommendedMovies"><a href="#/show/movie">{{movie}}</a></div>

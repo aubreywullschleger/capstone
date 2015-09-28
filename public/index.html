@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>other media app</title>
-    <script src="https://code.angularjs.org/1.4.6/angular.min.js"></script>
-    <script src="https://code.angularjs.org/1.4.6/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular-route.min.js"></script>
     <script src="../app/app.js"></script>
-    <script src="../app/controllers/MainController.js"></script>
+    <script src="../app/controllers/RecommendationController.js"></script>
 </head>
 <body>
-<h1>other media</h1>
+<nav>
+    <button>
+        <a href="#/login">login</a>
+    </button>
+    <button>
+        <a href="#/register">register</a>
+    </button>
+</nav>
+<h1>recommendations app</h1>
 <div ng-view></div>
 </body>
 </html>
